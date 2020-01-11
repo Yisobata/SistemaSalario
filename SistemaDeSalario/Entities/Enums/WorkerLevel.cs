@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SistemaDeSalario.Entities.Enums
+﻿namespace SistemaDeSalario.Entities.Enums
 {
-    class WorkerLevel
+    enum WorkerLevel : int
     {
+        Junio = 0,
+        MidLevel = 1,
+        Senior = 2
     }
 }

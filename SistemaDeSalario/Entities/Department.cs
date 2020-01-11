@@ -1,10 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SistemaDeSalario.Entities
+﻿namespace SistemaDeSalario.Entities
 {
     class Department
     {
+        public string Name { get; set; }
+
+        public Department()
+        {
+        }
+
+        public Department(string name)
+        {
+            Name = name;
+        }
     }
 }
